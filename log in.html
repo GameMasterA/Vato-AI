@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VATO - Login</title>
+    <link rel="stylesheet" href="login styles.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><h1>VATO</h1></a>
+        <h1>Login to VATO</h1>
+     </header>
+     <nav>
+         <a href="/index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="services.html">Services</a>
+         <a href="contact.html">Contact</a>
+         <a href="sign up.html">Sign Up</a>
+         <a href="log in.html">Log In</a>
+         <a href="try vato.html">Try VATO</a>
+     </nav>
+    <section class="login-section">
+        <form action="/login" method="POST" class="login-form">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 VATO - All rights reserved.</p>
+    </footer>
+</body>
+</html>
